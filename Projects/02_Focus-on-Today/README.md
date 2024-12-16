@@ -1,6 +1,6 @@
-taxed # Focus on Today
+# Focus on Today
 
-"Focus on Today" is a simple kinda to-do app.
+`Focus on Today` is a simple kinda to-do app.
 
 ### Features:
 - **Allow you to add up to 3 tasks**: Add up to three daily goals and mark them as completed with just a click.
