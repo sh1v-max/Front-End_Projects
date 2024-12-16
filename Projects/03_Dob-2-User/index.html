@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,22 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
+
 <body>
   <form action="">
-    <input type="number" placeholder="Enter time in milliseconds" value="" name="" id="">
-    <button>Convert</button>
+    <div class="form-control">
+      <label>User 1</label>
+      <input id="user-1" type="text" placeholder="DD/MM/YYYY HH:MM" value="12/10/2000 05:40">
+    </div>
+    <span>VS</span>
+    <div class="form-control">
+      <label for="">User 2</label>
+      <input id="user-2" type="text" placeholder="DD/MM/YYYY HH:MM" value="12/07/1995 18:25">
+    </div>
+    <button>Compare</button>
   </form>
-  <p class="local"> Local zone: <span></span></p>
-  <p class="utc"> UTC zone: <span></span></p>
-  <p class="iso"> ISO zone: <span></span></p>
+  <p class="p1"></p>
+  <p class="p2"></p>
 </body>
+
 </html>
