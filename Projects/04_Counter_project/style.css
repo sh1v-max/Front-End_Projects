@@ -1,0 +1,15 @@
+body{
+  text-align: center;
+}
+
+count {
+  font-size: 3rem;
+}
+
+button {
+  background-color: cyan;
+  padding: 10px 16px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  cursor: pointer;
+}
