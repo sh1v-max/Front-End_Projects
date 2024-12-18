@@ -5,4 +5,4 @@
 | S No. | Project Name       | Live Link          |
 |-------|---------------------|--------------------|
 | 1     | Focus on Today        | [Live Demo](https://focusontodaybyme.netlify.app/)   |
-| 2     | Counter    | [Live Demo](ttps://mycounterbash.netlify.app/)   |
+| 2     | Counter    | [Live Demo](https://mycounterbash.netlify.app/)   |
