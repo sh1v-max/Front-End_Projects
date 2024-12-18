@@ -1,6 +1,6 @@
 # Focus on Today
 
-`Focus on Today` is a simple kinda to-do app.
+`Focus on Today` is a simple, kind of to-do app.
 
 ### Features:
 - **Allow you to add up to 3 tasks**: Add up to three daily goals and mark them as completed with just a click.
@@ -18,7 +18,7 @@
 This project uses HTML, CSS, and JavaScript to ensure a seamless experience across all devices.
 
 
-### Here is "Focus on Today" [Live](https://focusontodaybyme.netlify.app/) link.
+- ### Here is  [Focus on Today](https://focusontodaybyme.netlify.app/) link.
 
 ## Preview
 <p align="center">
