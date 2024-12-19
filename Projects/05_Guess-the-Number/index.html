@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Guess the number</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
+
 <body>
-  <button>Hello</button>
+  <header>
+    <h1>Simple Counter App</h1>
+  </header>
+  <p>Enter a guess between 0 too 100</p>
+  <form action="">
+    <input type="number" placeholder="Enter a number" max="100" min="0">
+    <div>
+      <button>Submit</button>
+      <button class="start-game" disabled>Start again</button>
+    </div>
+  </form>
+  <footer>
+    <p>2024 Counter App | by Wazir</p>
+  </footer>
 </body>
+
 </html>
+
+<!--? Tips  -->
+<!-- we are using form and not input field directly because we want
+ to use the functionality of submit button working when we press enter -->
