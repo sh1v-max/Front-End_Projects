@@ -13,20 +13,27 @@
 </head>
 
 <body>
+
   <header>
     <h1>Simple Counter App</h1>
   </header>
+
   <p>Enter a guess between 0 too 100</p>
   <form action="">
-    <input type="number" placeholder="Enter a number" max="100" min="0">
+    <input class="user-input" type="number" placeholder="Enter a number" max="100" min="0">
     <div>
       <button>Submit</button>
       <button class="start-game" disabled>Start again</button>
     </div>
   </form>
+
+  <p class="result"></p>
+  <p>Your Guesses: <span class="all-guesses"></span></p>
+  
   <footer>
     <p>2024 Counter App | by Wazir</p>
   </footer>
+
 </body>
 
 </html>
