@@ -2,69 +2,99 @@
   box-sizing: border-box;
 }
 
+/* body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ebebeb;
+} */
 body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  /* background-color: #f4f4f9; */
-  /* color: #5f5f5f; */
-  /* text-align: center; */
-  /* min-height: 100vh; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
-  /* margin: 0; */
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure body covers the full viewport height */
+  margin: 0; /* Remove default body margins */
 }
 
-/* header {
+header {
   font-family: cursive;
   background-color: #5f5f5f;
   padding: 20px;
   color: white;
   font-size: 0.8rem;
   height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+  margin-bottom: 2rem;
+}
 
+/* main {
+  max-width:900px;
+  margin: 0 auto;
+} */
 main {
   max-width: 900px;
+  width: 100%;
   margin: 0 auto;
+  flex-grow: 1;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 input {
+  height: 60px;
   width: 100%;
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border-color: #ffffff;
+  color: #5f5f5f;
 }
 
 .transformed-output{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 1.5rem 0;
   padding: 1rem;
-  background-color: beige;
+  background-color: rgb(178, 255, 255);
   position: relative;
+  min-height: 50px;
+  text-align: left ;
+  border-radius: 5px;
+  transition:  0.5s;
+  color: #494949;
+  border: 1px solid #5f5f5f;
+}
+
+.transformed-output:hover {
+  background-color: rgb(0, 231, 231);
+  color: #252525;
+  transform: scale(1.01);
 }
 
 .transformed-output label {
-  font-size: .75rem;
+  font-size: .95rem;
   position: absolute;
   top: -.75rem;
   left: 1.5rem;
-  background-color: #000;
+  background-color: #5f5f5f;
   color: #fff;
   padding: .25rem;
+  border-radius: 5px;
 }
 
-/* footer {
+footer {
   font-family: cursive;
   background-color: #5f5f5f;
   color: white;
   font-size: 1.2rem;
   min-height: 60px;
+  margin-top: auto; /* Push footer to the bottom */
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: o;
-} */
+}
+
+footer p {
+  margin: 0;
+  padding: 1rem;
+}
