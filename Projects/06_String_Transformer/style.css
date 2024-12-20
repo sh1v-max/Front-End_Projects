@@ -28,7 +28,7 @@ body {
 } */
 
 main {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -37,6 +37,24 @@ input {
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
   font-size: 1rem;
+}
+
+.transformed-output{
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: beige;
+  position: relative;
+}
+
+.transformed-output label {
+  font-size: .75rem;
+  position: absolute;
+  top: -.75rem;
+  left: 1.5rem;
+  background-color: #000;
+  color: #fff;
+  padding: .25rem;
 }
 
 /* footer {
