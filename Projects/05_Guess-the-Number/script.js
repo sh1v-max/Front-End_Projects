@@ -26,7 +26,7 @@
     }
     // console.log('submitted')
     allGuessesArray.push(userInputValue)
-    allGuesses.innerText = 'Your Guesses' + allGuessesArray.join(', ')
+    allGuesses.innerText = 'Your Guesses: ' + allGuessesArray.join(', ')
     form.reset()
   })
 
