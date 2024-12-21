@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark/Light Mode</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />  
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Day/Night Theme</h1>
+            <button id="theme-toggle">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Welcome!</h2>
+            <p>This is a simple website with day/night mode.</p>
+            <p>Click the moon/sun icon in the header to switch theme.</p>
+            
+            <div class="custom-container" data-theme="light">
+                <div class="container-header">
+                    <h3>Independent Theme Container</h3>
+                    <button id="container-theme-toggle">🌙</button>
+                </div>
+                <p>This container has its own theme toggle</p>
+                <p>Try clicking the moon/sun icon above to change just this container's theme.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p> 2024 Day/Night Theme. By Wazir</p>
+    </footer>
+
+</body>
+</html>
