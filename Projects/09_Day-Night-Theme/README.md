@@ -1,7 +1,7 @@
 # Day/Night Theme
 A simple Light and Dark Mode toggle page with an additional contained dark mode feature for a specific section. try it Out!
 
-- ### Here is [Day/Night Theme](https://telephonenumberformatter.netlify.app/) link.
+- ### Here is [Day/Night Theme](https://daynightthemebash.netlify.app/) link.
 
 ## Preview
 

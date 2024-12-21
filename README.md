@@ -9,5 +9,5 @@
 | 3     | Number Guessing Game    |A number Guessing game that let you guess a random computer generated number.| [Live Demo](https://guessthenumbash.netlify.app/)   |[Code](./Projects/05_Guess-the-Number/)|
 | 4     | Play with String    |It transforms string into various text formats like lowercase, uppercase, camel case, pascal case, snake case, kebab case, and trim.| [Live Demo](https://playwithstringbash.netlify.app/)   |[Code](./Projects/06_String_Transformer/)|
 | 5     | Telephone Number Formatter    |It formats phone numbers dynamically based on international constraints.| [Live Demo](https://telephonenumberformatter.netlify.app/)   |[Code](./Projects/07_Telephon-formatter/)|
-| 6     | Light and Dark Mode    |Light/Dark Mode toggle page, Includes Local storage concept to prevent changing state on reload.| [Live Demo](https://telephonenumberformatter.netlify.app/)   |[Code](./Projects/08_Light-and-Dark-Mode/)|
+| 6     | Day/Night Theme    |Light and Dark Mode toggle page with an additional contained dark mode feature for a specific section.| [Live Demo](https://daynightthemebash.netlify.app/)   |[Code](./Projects/09_Day-Night-Theme/)|
 |X| Coming soon|Description...|[Live Demo]()|[Code]()|
