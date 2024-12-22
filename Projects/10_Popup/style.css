@@ -28,7 +28,7 @@ body {
   left: 0;
 }
 
-.popup.open{
+.popup-open .popup{
   /* transition: .5s; */
   /* inset: 0; */
   /* display: block; */
@@ -57,4 +57,15 @@ body {
   align-items: center;
   text-align: center;
   font-family: serif;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.popup-open .overlay {
+  display: block;
 }
