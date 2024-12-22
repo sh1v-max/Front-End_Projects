@@ -8,24 +8,34 @@ body {
 }
 
 .popup {
+  /* top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; */
+  /* inset: 0; */
+  /* margin: auto; */
+  /* display: none; */
   width: 500px;
   height: 300px;
   background-color: white;
   border-radius: 16px;
   position: fixed;
-  /* top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; */
-  inset: 0;
-  margin: auto;
-  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.404);
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.4);
   padding: 8px;
-  display: none;
+  transform: translate(-50%, -50%) scale(0);
+  transition: all 0.3s ease-in-out;
+  top: 0; 
+  left: 0;
 }
 
 .popup.open{
-  display: block;
+  /* transition: .5s; */
+  /* inset: 0; */
+  /* display: block; */
+  transform: scale(1);
+  left: 50%;  
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .close-icon {
