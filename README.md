@@ -10,4 +10,5 @@
 | 4     | Play with String    |It transforms string into various text formats like lowercase, uppercase, camel case, pascal case, snake case, kebab case, and trim.| [Live Demo](https://playwithstringbash.netlify.app/)   |[Code](./Projects/06_String_Transformer/)|
 | 5     | Telephone Number Formatter    |It formats phone numbers dynamically based on international constraints.| [Live Demo](https://telephonenumberformatter.netlify.app/)   |[Code](./Projects/07_Telephon-formatter/)|
 | 6     | Day/Night Theme    |Light and Dark Mode toggle page with an additional contained dark mode feature for a specific section.| [Live Demo](https://daynightthemebash.netlify.app/)   |[Code](./Projects/09_Day-Night-Theme/)|
+| 7     | Popup    |responsive popup with a button to open it. includes a close icon, smooth transitions, and a dimmed overlay.| [Live Demo](https://daynightthemebash.netlify.app/)   |[Code](./Projects/01_Focus-on-Today/)|
 |X| Coming soon|Description...|[Live Demo]()|[Code]()|

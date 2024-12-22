@@ -81,7 +81,7 @@ header, footer {
 ```
 
 <p align="center">
-    <img src="./image/centerHoriVert.png" width="400" height="400"/>
+    <img src="./image/centerHori-; "Vert.png" width="400" height="400"/>
 </p>
 
 ### Using `Grid`
@@ -113,7 +113,7 @@ header, footer {
 ```
 
 <p align="center">
-    <img src="./image/centerHoriVertColumn.png" width="400" height="400"/>
+    <img src="./image/center+HoriVertColumn.png" width="400" height="400"/>
 </p>
 
 ### Using `Grid`

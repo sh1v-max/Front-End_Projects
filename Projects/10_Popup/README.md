@@ -1,20 +1,14 @@
-# Day/Night Theme
-A simple Light and Dark Mode toggle page with an additional contained dark mode feature for a specific section. try it Out!
+# Popup
+responsive popup modal with a stylish button to open it. The popup includes a close icon, smooth transitions, and a dimmed overlay for a modern and user-friendly design. try it Out!
 
-- ### Here is [Day/Night Theme](https://daynightthemebash.netlify.app/) link.
+- ### Here is [Popup](https://daynightthemebash.netlify.app/) link.
 
 ## Preview
 
 ### Image :
 <p align="center">
-    <img src="./image/image.png" />
-</p>
-<p align="center">
     <img src="./image/image0.png" />
 </p>
 <p align="center">
-    <img src="./image/image1.png" />
-</p>
-<p align="center">
-    <img src="./image/image2.png" />
+    <img src="./image/image.png" />
 </p>
