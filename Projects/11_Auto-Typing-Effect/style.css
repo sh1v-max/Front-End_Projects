@@ -1,9 +1,12 @@
 body {
   margin: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   height: 80vh;
+  background-color: rgb(42, 42, 42);
+  color: rgb(165, 237, 255);
+  padding-left: 32px;
 }
 
 h1 {
@@ -11,16 +14,16 @@ h1 {
 }
 
 span {
-  color: brown;
+  color: rgb(255, 106, 48);
   display: inline-flex;
   align-items: center;
 }
 
 span::after{
   content: '';
-  width:2px;
+  width:4px;
   height:55px;
-  background-color: brown;
+  background-color: rgb(255, 106, 48);
   display: inline-block;
   margin-left: 4px;
 }
