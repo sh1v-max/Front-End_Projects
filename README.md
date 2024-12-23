@@ -13,3 +13,5 @@
 | 7     | Popup    |responsive popup with a button to open it. includes a close icon, smooth transitions, and a dimmed overlay.| [Live Demo](https://openpopupbash.netlify.app/)   |[Code](./Projects/10_Popup/)|
 | 8     | Auto Type    |A responsive Auto Type effect using JavaScript.| [Live Demo](https://autotypebash.netlify.app//)   |[Code](./Projects/11_Auto-Typing-Effect/)|
 |X| Coming soon|Description...|[Live Demo]()|[Code]()|
+|X| Coming soon|Description...|[Live Demo]()|[Code]()|
+
