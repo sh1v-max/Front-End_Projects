@@ -6,6 +6,7 @@ A responsive Auto Type effect using JavaScript
 ## Preview
 
 ### Image :
+### Image :
 
 <p align="center">
     <img src="./image/image.png" />
