@@ -12,4 +12,15 @@ h1 {
 
 span {
   color: brown;
+  display: inline-flex;
+  align-items: center;
+}
+
+span::after{
+  content: '';
+  width:2px;
+  height:55px;
+  background-color: brown;
+  display: inline-block;
+  margin-left: 4px;
 }
