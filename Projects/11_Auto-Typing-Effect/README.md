@@ -4,7 +4,6 @@ A responsive Auto Type effect using JavaScript
 - ### Here is [Auto Type](https://autotypebash.netlify.app/) link.
 
 ## Preview
-Here is preview image
 ### Image :
 
 <p align="center">
