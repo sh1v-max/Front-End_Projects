@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 30px;
+}
+
+main > div { /*selecting the direct div children in main tag*/
+  width: 100%;
+  /* margin: 20px; */
+}
+
+.input-container {
+  border: 1px solid #000000;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+  appearance: textfield;
+}
+
+.bill-output {
+  color: rgb(255, 255, 255);
+  background-color: rgb(55, 75, 255);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+input[type = number]::-webkit-inner-spin-button, 
+input[type = number]::-webkit-outer-spin-button {
+  -webkit-appearance: none; /* Removes the arrows for WebKit browsers */
+  appearance: none;
+  margin: 0; /* Ensures no extra margin */
+}
