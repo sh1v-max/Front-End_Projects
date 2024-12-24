@@ -6,20 +6,20 @@ body {
   margin: 0 20px;
   margin-bottom: 20px;
   font-family: sans-serif;
-  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
-  /* min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
 }
 
 main {
-  /* background: rgba(235, 235, 235, 0.95);
+  background: rgba(235, 235, 235, 0.95);
   padding: 2rem;
   border-radius: 16px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-  backdrop-filter: blur(5px); */
-  max-width: 700px;
+  backdrop-filter: blur(5px);
+  max-width: 800px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -33,6 +33,7 @@ main > div { /*selecting the direct div children in main tag*/
 }
 
 .bill-input{
+  min-width: 350px;
   color: #5a67d8;
   font-size: 20px;
 }
@@ -156,6 +157,7 @@ p {
 }
 
 .bill-output {
+  min-width: 350px;
   background-color: #5a67d8;
   color: antiquewhite;
   border-radius: 10px;
@@ -172,6 +174,8 @@ p {
 }
 
 .bill-output p {
+  color: antiquewhite;
+  font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
