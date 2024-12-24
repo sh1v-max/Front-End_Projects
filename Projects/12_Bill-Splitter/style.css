@@ -75,14 +75,35 @@ p {
   margin-bottom: 15px;
 }
 
+.tip-container.disabled{
+  opacity: 0.5;
+}
+
+.tip-container.disabled .tip{
+  cursor: not-allowed;
+}
+.tip-container.disabled .tip:hover{
+  transform: translateY(0px);
+  background: rgb(212, 212, 212);
+  color: #646464;
+  cursor: not-allowed;
+}
+
 .tip {
-  color: #303030;
+  font: inherit;
+  border: none;
+  color: #646464;
   background-color: rgb(212, 212, 212);
   border-radius: 5px;
   text-align: center;
   cursor: pointer;
   padding: 6px 0px;
-  transition: all 0.3s ease;;
+  transition: all 0.3s ease;
+}
+.tip.selected{
+  outline: 5px solid rgb(212, 212, 212);
+  background: #6f3cff;
+  color: white;
 }
 
 .tip:hover {
@@ -100,6 +121,12 @@ p {
   font-size: 16px;
   padding: 10px;
   width: 100%;
+}
+
+.gray-input:disabled {
+  cursor: not-allowed;
+  background-color: rgba(104, 132, 255, 0.331);
+  color: #d2d2d2;
 }
 
 .generate-bill-button{
@@ -120,6 +147,12 @@ p {
   background: #6f3cff;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(102, 126, 234, 0.25);
+}
+
+.generate-bill-button:disabled {
+  background-color: rgba(104, 132, 255, 0.438);
+  color: #959595;
+  cursor: not-allowed;
 }
 
 .bill-output {
@@ -149,9 +182,14 @@ p {
   border: none;
   border-radius: 5px;
   font-size: 16px;
-  cursor: not-allowed;
+  cursor: pointer;
+  /* cursor: not-allowed; */
   font-family: 'Roboto', sans-serif;
 }
+
+.reset-button:disabled{
+  cursor: not-allowed;
+} 
 
 @media (max-width: 500px) {
   main {
