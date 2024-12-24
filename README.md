@@ -12,6 +12,6 @@
 | 6     | Day/Night Theme    |Light and Dark Mode toggle page with an additional contained dark mode feature for a specific section.| [Live Demo](https://daynightthemebash.netlify.app/)   |[Code](./Projects/09_Day-Night-Theme/)|
 | 7     | Popup    |responsive popup with a button to open it. includes a close icon, smooth transitions, and a dimmed overlay.| [Live Demo](https://openpopupbash.netlify.app/)   |[Code](./Projects/10_Popup/)|
 | 8     | Auto Type    |A responsive Auto Type effect using JavaScript.| [Live Demo](https://autotypebash.netlify.app//)   |[Code](./Projects/11_Auto-Typing-Effect/)|
-|X| Coming soon|Description...|[Live Demo]()|[Code]()|
+| 9     | Bill Splitter    |A bill splitter app which splits all the bill based of total friends and the tip given.| [Live Demo](https://billsplitterbash.netlify.app/)   |[Code](./Projects/12_Bill-Splitter/)|
 |X| Coming soon|Description...|[Live Demo]()|[Code]()|
 
