@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -18,20 +18,20 @@
       <p>Bill</p>
       <div class="input-container">
         <span>&#8377</span>
-        <input type="number" id="">
+        <input type="number" id="bill-amount" placeholder="Total Amount...">
       </div>
       <p>Select Tip</p>
       <div class="tip-container">
-        <tip class="tip">None</tip>
         <tip class="tip">5%</tip>
         <tip class="tip">10%</tip>
-        <tip class="tip">25%</tip>
+        <tip class="tip">15%</tip>
+        <tip class="tip">20%</tip>
         <tip class="tip">50%</tip>
         <tip class="tip">100%</tip>
       </div>
-      <input class="custom-tip gray-input" type="number" placeholder="Custom Tip...">
+      <input class="custom-tip gray-input" type="number" placeholder="Custom Tip in %...">
       <p>Number of People</p>
-      <input class="number-of-people gray-input" type="number" placeholder="Number of people...">
+      <input class="number-of-people gray-input" type="number" placeholder="Number of peoples...">
       <button class="generate-bill-button">Generate Bill</button>
     </div>
     <div class="bill-output">
