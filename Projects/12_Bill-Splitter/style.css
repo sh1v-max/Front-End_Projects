@@ -3,7 +3,8 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 20px;
+  margin-bottom: 20px;
   font-family: sans-serif;
   /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
   /* min-height: 100vh;
@@ -21,6 +22,7 @@ main {
   max-width: 700px;
   margin: 0 auto;
   display: flex;
+  align-items: center;
   margin-top: 30px;
   gap: 20px;
 }
@@ -142,164 +144,17 @@ p {
   justify-content: space-between;
 }
 
-
-
-/*
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.reset-button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: not-allowed;
+  font-family: 'Roboto', sans-serif;
 }
 
-body {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media (max-width: 500px) {
+  main {
+    flex-direction: column;
+  }
 }
-
-.container {
-    padding: 20px;
-    width: 100%;
-    max-width: 500px;
-}
-
-.calculator {
-    background: rgba(255, 255, 255, 0.95);
-    padding: 2rem;
-    border-radius: 16px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-    backdrop-filter: blur(5px);
-}
-
-h1 {
-    color: #2d3748;
-    text-align: center;
-    margin-bottom: 1.5rem;
-    font-size: 1.8rem;
-}
-
-.input-group {
-    margin-bottom: 1.5rem;
-}
-
-label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #4a5568;
-    font-weight: 500;
-}
-
-input {
-    width: 100%;
-    padding: 0.75rem;
-    border: 2px solid #e2e8f0;
-    border-radius: 8px;
-    font-size: 1rem;
-    transition: all 0.3s ease;
-}
-
-input:focus {
-    outline: none;
-    border-color: #667eea;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-}
-
-.tip-buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0.5rem;
-}
-
-.tip-btn {
-    padding: 0.75rem;
-    border: none;
-    background: #edf2f7;
-    color: #2d3748;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-weight: 600;
-}
-
-.tip-btn:hover {
-    background: #667eea;
-    color: white;
-    transform: translateY(-2px);
-}
-
-.tip-btn.active {
-    background: #667eea;
-    color: white;
-}
-
-#custom-tip {
-    padding: 0.75rem;
-    text-align: center;
-}
-
-.calculate-btn {
-    width: 100%;
-    padding: 1rem;
-    background: #667eea;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-bottom: 1.5rem;
-}
-
-.calculate-btn:hover {
-    background: #5a67d8;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.25);
-}
-
-.result {
-    background: #f7fafc;
-    padding: 1.5rem;
-    border-radius: 12px;
-}
-
-.result-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0.75rem;
-}
-
-.result-item:last-child {
-    margin-bottom: 0;
-    padding-top: 0.75rem;
-    border-top: 2px solid #e2e8f0;
-}
-
-.result-item span:first-child {
-    color: #4a5568;
-    font-weight: 500;
-}
-
-.result-item span:last-child {
-    color: #667eea;
-    font-size: 1.25rem;
-    font-weight: 600;
-}
-
-@media (max-width: 480px) {
-    .container {
-        padding: 1rem;
-    }
-    
-    .calculator {
-        padding: 1.5rem;
-    }
-    
-    .tip-buttons {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}*/
