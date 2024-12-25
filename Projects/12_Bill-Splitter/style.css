@@ -3,14 +3,26 @@
 }
 
 body {
-  margin: 0 20px;
-  margin-bottom: 20px;
+  margin: 0;
   font-family: sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient( #b7b7b7 0%, #989898 100%);
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background: #515151;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 12px;
+  font-family: cursive;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 main {
@@ -19,10 +31,10 @@ main {
   border-radius: 16px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
   backdrop-filter: blur(5px);
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 900px;
+  margin: 0 20px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   margin-top: 30px;
   gap: 20px;
 }
@@ -33,7 +45,10 @@ main > div { /*selecting the direct div children in main tag*/
 }
 
 .bill-input{
-  min-width: 350px;
+  background-color: #dcdcdc;
+  border-radius: 20px;
+  padding: 10px;
+  max-width: 450px;
   color: #5a67d8;
   font-size: 20px;
 }
@@ -157,11 +172,11 @@ p {
 }
 
 .bill-output {
-  min-width: 350px;
+  max-width: 450px;
   background-color: #5a67d8;
   color: antiquewhite;
   border-radius: 10px;
-  padding: 30px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -189,6 +204,13 @@ p {
   cursor: pointer;
   /* cursor: not-allowed; */
   font-family: 'Roboto', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.reset-button:hover {
+  background: rgba(157, 170, 224, 0.635);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.25);
 }
 
 .reset-button:disabled{
@@ -199,4 +221,15 @@ p {
   main {
     flex-direction: column;
   }
+}
+
+footer {
+  width: 100%;
+  background: #515151;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  font-family: cursive;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
 }
