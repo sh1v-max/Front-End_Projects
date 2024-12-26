@@ -14,5 +14,6 @@
 | 8     | Auto Type    |A responsive Auto Type effect using JavaScript.| [Live Demo](https://autotypebash.netlify.app//)   |[Code](./Projects/11_Auto-Typing-Effect/)|
 | 9     | Bill Splitter    |A bill splitter app which splits all the bill based of total friends and the tip given.| [Live Demo](https://billsplitterbash.netlify.app/)   |[Code](./Projects/12_Bill-Splitter/)|
 | 10     | Meme Generator    |A simple Meme Generator.| [Live Demo](https://memegeneratorbash.netlify.app/)   |[Code](./Projects/13_Meme-Generator/)|
+| 11     | Toast Popup Generator    |A toast notification generator with dynamic positioning, types, and durations to set.| [Live Demo](https://tosatpopupgenerator.netlify.app/)   |[Code](./Projects/14_Toast-Popup/)|
 |X| Coming soon|Description...|[Live Demo]()|[Code]()|
 
