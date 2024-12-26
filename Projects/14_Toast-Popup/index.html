@@ -7,8 +7,7 @@
   <title>Toast Popup</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
@@ -30,9 +29,14 @@
       <option value="warning">Warning</option>
       <option value="info">Info</option>
     </select>
-    <input class = "toast-message" type="text" value="Your Message" placeholder="Enter Your Text Message...">
-    <input class="duration" type="range" id="">
-    <button>Show Toast</button>
+    <input id="toast-message" type="text" value="Your Message" placeholder="Enter Your Text Message...">
+    <div class="duration-container">
+      <label for="duration">Duration</label>
+      <input id="duration" type="range" min="2" max="10" value="5">
+    </div>
+    <button class="show-toast">Show Toast</button>
+  </div>
+  <div class="toasts-container">
   </div>
 </body>
 

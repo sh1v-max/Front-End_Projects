@@ -5,12 +5,35 @@
 body {
   margin: 16px;
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #adadad, #cfcfcf);
+  color: #333;
 }
 
-select, input, button {
+select, input[type='text'], button {
   font: inherit;
-  padding: 6px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #45a049;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(2px);
 }
 
 .container {
@@ -19,8 +42,145 @@ select, input, button {
   gap: 16px;
   max-width: 400px;
   margin-inline: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.duration-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+#duration {
+  flex-grow: 1;
 }
 
 button {
   cursor: pointer;
+}
+
+.toast {
+  padding: 0.5em;
+  background-color: pink;
+  color: rgb(0, 0, 0);
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+  animation: fromLeft 0.1s ease-in;
+}
+
+.toasts-container.right .toast  {
+  animation: fromRight 0.1s ease-in;
+}
+
+.toast.go-left {
+  animation: toLeft 0.1s ease-in forwards;
+}
+
+.toasts-container.right .toast.go-right {
+  animation: toRight 0.1s ease-in forwards;
+} 
+
+@keyframes fromLeft {
+  0% {
+      transform: translateX(-100%);
+  } 
+
+  100% {
+      transform: translateX(0);
+  }
+}
+
+@keyframes toLeft {
+  0% {
+      transform: translateX(0);
+  } 
+
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+@keyframes fromRight {
+  0% {
+      transform: translateX(100%);
+  } 
+
+  100% {
+      transform: translateX(0);
+  }
+}
+
+@keyframes toRight{
+  0% {
+      transform: translateX(0);
+  } 
+
+  100% {
+      transform: translateX(100%);
+  }
+}
+
+
+.toasts-container {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+
+
+.toast.success {
+  background-color: #009600;
+  color: white;
+}
+
+.toast.error {
+  background-color: #ff0000;
+  color: white;
+}
+
+.toast.warning {
+  background-color: #ec6b03;
+  color: white;
+}
+
+.toast.info {
+  background-color: #4e4e4e;
+  color: white;
+}
+.toast.success::before {
+  content: '✅';
+}
+
+.toast.error::before {
+  content: '❌';
+}
+
+.toast.warning::before {
+  content: '⚠️';
+}
+
+.toast.info::before {
+  content: 'ℹ️';
+}
+
+.toast span {
+  cursor: pointer;
+}
+
+.toasts-container.right {
+  left: auto;
+  right: 1rem;
+}
+
+
+.toasts-container.bottom {
+  top: auto;
+  bottom: 1rem;
 }
