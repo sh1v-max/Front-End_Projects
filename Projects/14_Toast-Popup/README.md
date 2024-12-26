@@ -1,7 +1,7 @@
 # Toast Popup Generator
 A toast notification generator with dynamic positioning, types, and durations to set. Try it out!.
 
-- ### Here is [Tost Popup Generator](https://memegeneratorbash.netlify.app/) live link.
+- ### Here is [Tost Popup Generator](https://tosatpopupgenerator.netlify.app/) live link.
 
 ## Preview Image :
 
