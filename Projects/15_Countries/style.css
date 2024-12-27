@@ -77,3 +77,10 @@ main {
 .country-card img {
   width: 100%;
 }
+
+@media (max-width: 650px) {
+  .countries-container {
+    gap: 24px;
+    justify-content: center;
+  }
+}
