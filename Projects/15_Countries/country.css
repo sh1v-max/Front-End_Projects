@@ -1,0 +1,28 @@
+.back-button {
+  padding: 8px 24px;
+  box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+.country-details {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.country-details img {
+  width: 40%;
+}
+
+.details-text{
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+  column-gap: 184px;
+  max-height: 200px;
+  flex-wrap: wrap;
+}
+
+.details-text p {
+  margin: 0px;
+}
