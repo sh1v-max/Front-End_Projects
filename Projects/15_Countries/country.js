@@ -11,6 +11,7 @@ const currencies = document.querySelector('.currencies')
 const languages = document.querySelector('.languages')
 const timeZone = document.querySelector('.time-zone')
 const mapLocation = document.querySelector('.map-location')
+const borderCountries = document.querySelector('.border-countries')
 
 fetch(`https://restcountries.com/v3.1/name/${countryName}?fullText=true`)
   .then((res) => res.json())
@@ -64,7 +65,13 @@ fetch(`https://restcountries.com/v3.1/name/${countryName}?fullText=true`)
         fetch(`https://restcountries.com/v3.1/alpha/${border}`)
         .then((res) => res.json())
         .then(([borderCountry]) => {
-          console.log(borderCountry)
+          // console.log(borderCountry)
+
+          const borderCountryTag = document.createElement('a')
+          borderCountryTag.innerText = borderCountry.name.common
+          borderCountryTag.href = `country.html?name=${borderCountry.name.common}`
+          // console.log(borderCountryTag)
+          borderCountries.append(borderCountryTag)
         })
       })
     }
