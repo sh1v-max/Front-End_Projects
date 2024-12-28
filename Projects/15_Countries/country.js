@@ -74,5 +74,9 @@ fetch(`https://restcountries.com/v3.1/name/${countryName}?fullText=true`)
           borderCountries.append(borderCountryTag)
         })
       })
+    }else {
+      const borderCountryTagNone = document.createElement('p')
+      borderCountryTagNone.innerText = 'N/A (Surrounded by water)'
+      borderCountries.append(borderCountryTagNone)
     }
   })
