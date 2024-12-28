@@ -83,4 +83,12 @@ main {
     gap: 24px;
     justify-content: center;
   }
+
+  .title {
+    font-size:  20px;
+  }
+
+  .header-content p {
+    font-size: 16px;
+  }
 }
