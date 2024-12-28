@@ -60,7 +60,8 @@ main {
   border: none;
   outline: none;
   padding: 16px;
-  font-size: 18px
+  font-size: 18px;
+  width: 90%;
 }
 
 .search-container input::placeholder {

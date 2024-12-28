@@ -1,10 +1,14 @@
 const countriesContainer = document.querySelector('.countries-container')
 const filterByRegion = document.querySelector('.filter-by-region')
+const searchInput = document.querySelector('.search-container input')
+
+let allCountriesData
 
 fetch('https://restcountries.com/v3.1/all')
   .then((res) => res.json())
   .then((data) => {
     renderCountries(data)
+    allCountriesData = data
   })
 
 filterByRegion.addEventListener('change', (e) => {
@@ -36,3 +40,12 @@ function renderCountries(data) {
     countriesContainer.appendChild(countryCard)
   })
 }
+
+searchInput.addEventListener('input', (e) => {
+  // console.log(e.target.value)
+  // console.log(allCountriesData)
+  const filterCountries = allCountriesData.filter((country) => country.name.common.toLowerCase().includes(e.target.value.toLowerCase()))
+  // as includes is case-sensitive
+  console.log(filterCountries)
+  renderCountries(filterCountries)
+})
