@@ -35,9 +35,34 @@ main {
   margin-inline: auto;
 }
 
+.search-filter-container{
+  margin-block: 16px;
+  margin-bottom: 48px;
+}
+
+.search-container{
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  border-radius: 6px;
+  padding-left: 24px;
+  color: #949494;
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 18px
+}
+
+.search-container input::placeholder {
+  color: #949494;
+  font-size: 16px;
+}
+
 .countries-container {
   max-width: 1200px;
-  margin-inline: auto;
+  /* margin-inline: auto; */
   margin-top: 16px;
   display: flex;
   gap: 64px;
@@ -82,6 +107,25 @@ main {
   .countries-container {
     gap: 24px;
     justify-content: center;
+  }
+
+  .search-container{
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    border-radius: 6px;
+    padding-left: 20px;
+  }
+  
+  .search-container input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px
+  }
+  
+  .search-container input::placeholder {
+    color: #949494;
+    font-size: 14px;
   }
 
   .title {
