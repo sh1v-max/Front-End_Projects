@@ -28,6 +28,18 @@
   margin: 0px;
 }
 
+.border-countries{
+  margin-top: 48px;
+}
+
+.border-countries a {
+  padding: 4px 18px;
+  box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin-inline: 4px;
+  font-size: 14px;
+}
+
 @media(max-width: 650px) {
   .country-details {
     flex-direction: column;
