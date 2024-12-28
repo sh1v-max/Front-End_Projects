@@ -15,10 +15,27 @@ fetch(`https://restcountries.com/v3.1/name/${countryName}?fullText=true`)
 .then(([country]) => {
   // data[0] can also be written as [country], according to destructuring
   // console.log(Object.values(country.name.nativeName)[0].common)
-  flagImage.src = country.flags.svg
-  countryNameH1.innerText = country.name.common
+    flagImage.src = country.flags.svg
+    countryNameH1.innerText = country.name.common
+    population.innerText = country.population.toLocaleString('en-IN')
+    region.innerText = country.region
+    topLevelDomain.innerText = country.tld.join(', ')
 
   if(country.name.nativeName){
-    console.log(Object.values(country.name.nativeName)[0].common)
+    nativeName.innerText = Object.values(country.name.nativeName)[0].common
+  }else{
+    nativeName.innerText = country.name.common
+  }
+
+  if (country.capital) {
+    capital.innerText = country.capital?.[0]
+  }
+
+  if (country.subregion) {
+    subRegion.innerText = country.subregion
+  }
+
+  if (country.languages) {
+    languages.innerText = Object.values(country.languages).join(', ')
   }
 })
