@@ -3,9 +3,21 @@
 }
 
 body {
+  --background-color: white;
+  --text-color: black;
+  --elements-color: white;
   margin: 0;
   font-family: Nunito, sans-serif;
-  background-color: hsl(207, 16%, 17%);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body.dark {
+  --background-color: hsl(207, 26%, 17%);
+  --text-color: hsl(0, 0%, 100%);
+  --elements-color: hsl(209, 23%, 22%);
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 a {
