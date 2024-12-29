@@ -48,6 +48,10 @@ main {
   flex-wrap: wrap;
 }
 
+.details-text-container .h1{
+  text-align: center;
+}
+
 .details-text p {
   margin: 0px;
 }
