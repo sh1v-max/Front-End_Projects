@@ -14,12 +14,14 @@ Users can:
 - API used: `https://restcountries.com/`
 
 ### Screenshot
-
+- Home Page:
 <p align="center">
-    <img src="./image/image0.png" />
+    <img src="./images/image0.png" />
 </p>
+
+- Country Detail
 <p align="center">
-    <img src="./image/image.png" />
+    <img src="./images/image.png" />
 </p>
 
 ### Live Link
