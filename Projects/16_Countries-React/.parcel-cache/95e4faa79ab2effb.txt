@@ -55,7 +55,7 @@
 71D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\components133915892981980328 1
 102D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\node_modules\@parcel\workers\lib\child.js133915893830750288 0
 101D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\node_modules\@remix-run\router\router.ts133915893842532141 0
-65D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\dist133915936151153541 1
+65D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\dist133915939210917018 1
 114D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\node_modules\css-tree\cjs\syntax\node\index-parse.cjs133915893844020133 0
 114D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\node_modules\@parcel\optimizer-svgo\node_modules\.bin133915893889580627 1
 96D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\node_modules\xxhash-wasm\types.d.ts133915893825598735 0
@@ -77,7 +77,7 @@
 104D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\node_modules\source-map\lib\mapping-list.js133915893823441007 0
 123D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\node_modules\css-select\node_modules\entities\lib\index.js.map133915893842181144 0
 150D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-exclude133915893849540136 1
-71D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\index.html133915936124209132 0
+71D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\index.html133915936859755796 0
 98D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\node_modules\entities\lib\encode.d.ts133915893835125490 0
 78D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\hooks\useTheme.js133322257080000000 0
 117D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\node_modules\caniuse-lite\data\features\pad-start-end.js133915895507557652 0
@@ -5952,7 +5952,7 @@
 84D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\dist\index.c325f3cf.css133915903152410359 0
 88D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\dist\index.c325f3cf.css.map133915903152530934 0
 83D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\dist\index.d498c491.js133915936150774503 0
-76D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\dist\index.html133915936149687508 0
+76D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\dist\index.html133915939210897090 0
 89D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\components\CountriesList.jsx133322257080000000 0
 96D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\components\CountriesListShimmer.css133322257080000000 0
 96D:\Full-Stack\Front-End_Projects\Projects\16_Countries-React\components\CountriesListShimmer.jsx133322257080000000 0
