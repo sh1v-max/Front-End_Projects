@@ -9,7 +9,9 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
 const Home = lazy(() => wait(1000).then(() => import('./components/Home')))
 const About = lazy(() => wait(1000).then(() => import('./components/About')))
-const Contact = lazy(() => wait(1000).then(() => import('./components/Contact')))
+const Contact = lazy(() => wait(1000).then(() => import('./components/Contact').then(module => {
+  return {default: module.Contact}
+})))
 
 const wait = (time) => {
   return new Promise(resolve => {
