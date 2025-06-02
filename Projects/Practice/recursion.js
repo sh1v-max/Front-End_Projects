@@ -6,20 +6,26 @@ function recursion(n) {
     i++
   }
 }
-// recursion(3)
+// recursion(2)
 
 function num(n) {
   for(let i = 1; i <= n; i++){
     console.log(i)
+    num(n - 1)
   }
 }
 
 // num(4)
 
+
+let count = 1
 function num2(n) {
-  for(let i = 1; i <= n; i++){
-    console.log(i)
+  if(n === 0) {
+    return
   }
+  num2(n-1)
+  console.log(count)
+  count++
 }
 
-num2(4)
+num2(10)
