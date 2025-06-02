@@ -18,6 +18,7 @@ function num(n) {
 
 // num(4)
 
+// ======================================================================
 //? print 1 - n
 let count = 1
 function num2(n) {
@@ -30,14 +31,38 @@ function num2(n) {
 }
 
 // num2(10)
+// num2(10)
 
+// ? another approach
+function printHello(n, count = 1){
+  if(count > n) {
+    return
+  }
+  console.log(count)
+  printHello(n, count + 1)
+}
+
+// printHello(10)
+
+// ======================================================================
 // ? print something n times
-function num3(n, s) {
+function num3(n ) {
   if(n === 0) {
     return
   }
-  console.log(s)
-  num3(n-1, s)
+  console.log('hello')
+  num3(n-1 )
 }
 
-num3(10, 'hello')
+// num3(10 )
+
+// ? another approach
+function printHello(n, count = 1){
+  if(count > n) {
+    return
+  }
+  console.log(count)
+  printHello(n, count + 1)
+}
+
+// printHello(10)
