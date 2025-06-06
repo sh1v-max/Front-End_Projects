@@ -6,7 +6,7 @@ function recursion(n) {
     i++
   }
 }
-// recursion(2)
+recursion(3)
 
 // ? just a random test
 function num(n) {
@@ -61,7 +61,7 @@ function printHello(n, count = 1){
   if(count > n) {
     return
   }
-  console.log(count)
+  console.log('hello')
   printHello(n, count + 1)
 }
 
